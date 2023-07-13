@@ -1,8 +1,9 @@
 let countCart=0;
+let count = document.getElementById("Showresult")
 
 function show()
 {
-    console.log(`Cart Quantity: ${countCart}`)
+    count.textContent = `Cart item: ${countCart}`
 }
 
 function add()
@@ -26,5 +27,5 @@ function add3()
 function reset()
 {
     countCart=0
-    console.log(`Cart Empty`)
+    count.textContent = `Cart item: ${countCart}`
 }
