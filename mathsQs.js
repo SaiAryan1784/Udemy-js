@@ -15,6 +15,7 @@ let count = 0
 function check1()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult1.textContent = `Your ans ${input} is Correct congrats`
@@ -29,6 +30,7 @@ function check1()
 function check2()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult2.textContent = `Your ans ${input} is Correct congrats`
@@ -43,6 +45,7 @@ function check2()
 function check3()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult3.textContent = `Your ans ${input} is Correct congrats`
@@ -57,6 +60,7 @@ function check3()
 function check4()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult4.textContent = `Your ans ${input} is Correct congrats`
@@ -71,6 +75,7 @@ function check4()
 function check5()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult5.textContent = `Your ans ${input} is Correct congrats`
@@ -85,6 +90,7 @@ function check5()
 function check6()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult6.textContent = `Your ans ${input} is Correct congrats`
@@ -99,6 +105,7 @@ function check6()
 function check7()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult7.textContent = `Your ans ${input} is Correct congrats`
@@ -113,6 +120,7 @@ function check7()
 function check8()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult8.textContent = `Your ans ${input} is Correct congrats`
@@ -127,6 +135,7 @@ function check8()
 function check9()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult9.textContent = `Your ans ${input} is Correct congrats`
@@ -141,6 +150,7 @@ function check9()
 function check10()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult10.textContent = `Your ans ${input} is Correct congrats`
@@ -155,6 +165,7 @@ function check10()
 function check11()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult11.textContent = `Your ans ${input} is Correct congrats`
@@ -169,6 +180,7 @@ function check11()
 function check12()
 {
     let input = document.getElementById("userInput").value
+    input = parseInt(input)
     if(input==12*8)
     {
         showresult12.textContent = `Your ans ${input} is Correct congrats`
