@@ -17,7 +17,7 @@ function Emp(id, name, salary){
     this.id = id;
     (this.name = name), (this.salary = salary)
 }
-
+ 
 const emp = new Emp(101, "Sai", 0);
 
 console.log(emp.id+" "+emp.name+" "+emp.salary);
