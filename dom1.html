@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>DOM Selectors</h1>
+
+    <p id="myPara">This is a para with dummy text</p>
+
+    <ul>
+        <li class="listitem">Item 1</li>
+        <li class="listitem">Item 2</li>
+        <li class="listitem">Item 3</li>
+        <li class="listitem">Item 4</li>
+    </ul>
+    <script>
+        //const para = document.getElementById('myPara')
+        //para.addEventListener('click', () => {
+          //  para.classList.toggle('highlight')
+        //}) -->
+
+        //const listitems = document.getElementsByClassName('listitem')
+        //console.log(listitems)
+        const allListItems = document.querySelectorAll('.listitem')
+
+        allListItems.forEach(item => {
+            item.textContent = 'Hello world'
+        })
+
+    </script>
+</body>
+</html>
