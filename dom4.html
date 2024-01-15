@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="tech">one</li>
+        <li class="tech">two</li>
+        <li class="tech">three</li>
+    </ul>
+
+    <h2>Hello</h2>
+
+    <h2 class="class">Namaste</h2>
+
+    <p id="js"></p>
+
+    <script>
+        let tech = document.getElementsByClassName('tech')
+        console.log(tech[0].innerText);
+        tech[2].innerText = "Node"
+
+        let tagname = document.getElementsByTagName("h2")
+        console.log(tagname)
+
+        tagname[1].innerText = "Hi"
+        tagname[0].style.color = "red"
+
+        <!-- Add html element -->
+
+        let title =  document.createElement("h1")
+        title.className = "greeting" 
+        title.textContent = "Hello"
+        console.log(title)
+        document.body.appendChild(title)
+
+        let hel = document.getElementById('js')
+
+        document.addEventListener("dblclick",hello);
+        function hello(){
+            hel.innerText = "HEMLO";
+        }
+    </script>
+</body>
+</html>

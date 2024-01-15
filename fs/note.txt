@@ -1,0 +1,17 @@
+
+1 Introduction to functions.
+2 In Javascript, Functions are first-class citizens.
+3 Advantages of using functions
+4 When should you consider using Functions?
+5 Introduction to the function declaration.
+6 The basic syntax for function declaration.
+7 Calling a Function
+8 Parameters, Arguments & Return statement.
+
+funtcion functionName(parameter){}
+
+Arrow functions 
+
+const functionName = () => {
+    //body....
+}
